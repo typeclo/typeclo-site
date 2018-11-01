@@ -6,7 +6,7 @@ body {
   font-family: Dosis, sans-serif;
   font-size: 16pt;
   background-color: #bce5e9;
-  padding: 16px;
+  padding: 16px 16px 0 16px;
   margin: 0;
 }
 .section {
@@ -15,8 +15,8 @@ body {
   padding: 24px;
   margin-bottom: 12px;
   border-radius: 4px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 h1 {
@@ -58,8 +58,8 @@ p {
   width: 80px;
   height: 80px;
   margin: auto;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 #header p {
   font-size: 25pt;
@@ -157,8 +157,8 @@ textarea {
   border-radius: 5px;
   width: 80%;
   outline: none;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .face {
   transform: scale(0.4);
@@ -182,11 +182,16 @@ textarea {
 }
 #contacts {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 48px;
 }
 .footer-logo {
   width: 50px;
   height: 50px;
+}
+.sololearn {
+  width: 57px;
+  height: 57px;
+  margin-bottom: -3px;
 }
 .github {
   width: 45px;
@@ -194,9 +199,10 @@ textarea {
   padding-bottom: 2px;
 }
 .copyright {
-  font-size: 10pt;
+  font-size: 9pt;
+  padding-top: 12px;
+  margin-bottom: -6px;
   text-align: right;
-  padding-bottom: 20px;
   color: rgb(223, 18, 154);
 }
 

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>xs
+
+<head>
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <div id="header" class="section">
+        <img alt="Clouie" class="img-circle" src="images/avatar.jpg">
+
+        <p>Clouie Gonzalez</p>
+    </div>
+    <!-- header end -->
+
+    <!-- About Me section start -->
+    <div class="section">
+        <h1><span>About Me</span></h1>
+        <p>
+            <sub>Hi, I'm <strong>Clouie</strong>. I'm just a simple housewife who is excited to learn something
+                new. Wondering why I decided to try the complex world of programming? Well, am a fortunate wife of
+                a very talented programmer,
+                <a href="https://typekev.com/"><strong>Typekev</strong></a>
+                is his name.
+                One reason why am so proud of his programming skills is that every project that he created is very
+                impressive and unique. His creative work always made me interested to know how coding works. Yet, I
+                always thought that programming is so hard and only those who are very talented can do. Then my
+                husband introduced <strong>SoloLearn</strong>, this online learning made it easy for me to follow
+                along and enjoy the lessons just like playing game. Thanks to my husband for introducing it to our
+                family. He wanted to use <strong>SoloLearn</strong> to teach our son, Casey. So far I have learned
+                a lot from <strong>SoloLearn</strong> . It is such an amazing free online study. It really helped
+                me gained knowledge about html. For now my goal is to learn about basic programming using HTML, Css
+                and Javascript. It will be tough but I'm looking forward to it. </sub>
+        </p>
+
+    </div>
+    <!-- About Me section end -->
+
+    <!-- My skills section start -->
+    <div class="section">
+
+        <h1><span><strong>My Skills</strong></span></h1>
+        <ul>
+            <progress min="0" max="100" value="80"></progress>
+            <li>HTML</li>
+            <progress min="0" max="100" value="60"></progress>
+            <li>Css</li>
+            <progress min="0" max="100" value="1"></progress>
+            <li>Javascript</li>
+
+        </ul>
+    </div>
+    <!-- My Skills section end -->
+
+    <!-- My schedule starts here-->
+    <!--
+    <div class="section">
+        <h1><span>My Coding Schedule</span></h1>
+        <table>
+            <tr>
+                <th><strong>Time<br />Day</strong></th>
+                <th><strong>10-11</strong></th>
+                <th><strong>11-12</strong></th>
+                <th><strong>13-14</strong></th>
+                <th><strong>15-16</strong></th>
+                <th><strong>17-18</strong></th>
+            </tr>
+            <tr>
+                <td><strong>Mon</strong></td>
+                <td class="selected">Learn</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Tue</strong></td>
+                <td></td>
+                <td class="selected">Code</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Wed</strong></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Learn</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Thu</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Code</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fri</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Play</td>
+            </tr>
+        </table>
+    </div>
+    -->
+    <!-- My schedule ends here-->
+
+    <!-- Capture form redirect start here-->
+    <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+    <!-- Capture form redirect ends here-->
+
+    <!--Contact form start here-->
+    <h1><span>Contact Me</span></h1>
+
+    <form id="emailForm" onsubmit="clearForm()" action="mail_handler.php" method="post" target="dummyframe">
+        <input name="name" type="text" placeholder="Name" required="true" /><br />
+        <input name="email" type="email" placeholder="Email" required="true" /><br />
+        <textarea name="message" type="Message" placeholder="Message" required="true"></textarea>
+        <input type="submit" value="SEND" class="submit" />
+    </form>
+
+
+
+    <div class="section" id="contacts">
+
+        <h1><span>Follow Me</span></h1>
+
+
+        
+        <div>
+            <a href="https://www.sololearn.com/" target="_blank">
+            <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+            </a>
+            <a href="#">
+            <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+            </a>
+            <a href="#">
+            <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+            </a>
+        </div>
+    </div>
+ 
+    <div class="copyright">
+        &copy; 2018 My Blog. All rights reserved.
+    </div>
+    <!-- Contact from end here-->
+
+</body>
+
+</html>

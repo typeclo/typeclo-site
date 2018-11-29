@@ -212,13 +212,44 @@ textarea {
   color: rgb(223, 18, 154);
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 5px 0
+}
+
+.column img {
+  width: 120px;
+}
+
+.column progress {
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @media (max-device-width: 767px) {
   .section {
     border-radius: 16px;
     margin-bottom: 16px;
   }
+
   #header img {
     width: 180px;
     height: 180px;
   }
+
+  .column img {
+    width: 90px;
+  }  
+   
+  .column progress {
+    width: 90%;
+  }
 }
+
